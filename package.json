@@ -1,0 +1,21 @@
+{
+  "name": "stack-game",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "budo  --port 8000",
+    "clean": "rm build/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "acorn": "^6.4.1",
+    "browserify": "^16.2.3",
+    "gsap": "^2.0.2",
+    "physijs": "^1.0.4",
+    "serve": "^10.1.2",
+    "three": "^0.99.0"
+  },
+  "devDependencies": {
+    "budo": "^11.6.2"
+  }
+}
